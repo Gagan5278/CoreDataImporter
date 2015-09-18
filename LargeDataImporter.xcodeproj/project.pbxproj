@@ -1,0 +1,554 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DC09BD161BA3162000ECAAA7 /* SimilarObjectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC09BD151BA3162000ECAAA7 /* SimilarObjectViewController.m */; };
+		DC450FDA1BA1B08A00B5B331 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DC450FD91BA1B08A00B5B331 /* main.m */; };
+		DC450FDD1BA1B08A00B5B331 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DC450FDC1BA1B08A00B5B331 /* AppDelegate.m */; };
+		DC450FE01BA1B08A00B5B331 /* LargeDataImporter.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DC450FDE1BA1B08A00B5B331 /* LargeDataImporter.xcdatamodeld */; };
+		DC450FE31BA1B08A00B5B331 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC450FE21BA1B08A00B5B331 /* ViewController.m */; };
+		DC450FE61BA1B08A00B5B331 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC450FE41BA1B08A00B5B331 /* Main.storyboard */; };
+		DC450FE81BA1B08A00B5B331 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC450FE71BA1B08A00B5B331 /* Images.xcassets */; };
+		DC450FEB1BA1B08A00B5B331 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC450FE91BA1B08A00B5B331 /* LaunchScreen.xib */; };
+		DC450FF71BA1B08A00B5B331 /* LargeDataImporterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DC450FF61BA1B08A00B5B331 /* LargeDataImporterTests.m */; };
+		DC4510051BA1B1A500B5B331 /* CustomPersistentStack.m in Sources */ = {isa = PBXBuildFile; fileRef = DC4510041BA1B1A500B5B331 /* CustomPersistentStack.m */; };
+		DC4510071BA1B91400B5B331 /* LargeDataImporter-Prefix.pch in Resources */ = {isa = PBXBuildFile; fileRef = DC4510061BA1B8DD00B5B331 /* LargeDataImporter-Prefix.pch */; };
+		DC45100A1BA1C28A00B5B331 /* ImportOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = DC4510091BA1C28A00B5B331 /* ImportOperation.m */; };
+		DC45100F1BA1C6C700B5B331 /* UFOSighting.m in Sources */ = {isa = PBXBuildFile; fileRef = DC45100E1BA1C6C700B5B331 /* UFOSighting.m */; };
+		DC4510181BA1C71500B5B331 /* UFOSighting+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = DC4510171BA1C71500B5B331 /* UFOSighting+Additions.m */; };
+		DC45101B1BA1C76300B5B331 /* NSString+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = DC45101A1BA1C76300B5B331 /* NSString+Addition.m */; };
+		DCFD24A81BA6AF7900FE3DAC /* CustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DCFD24A71BA6AF7900FE3DAC /* CustomCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DC450FF11BA1B08A00B5B331 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC450FCC1BA1B08A00B5B331 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DC450FD31BA1B08A00B5B331;
+			remoteInfo = LargeDataImporter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DC09BD141BA3162000ECAAA7 /* SimilarObjectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimilarObjectViewController.h; sourceTree = "<group>"; };
+		DC09BD151BA3162000ECAAA7 /* SimilarObjectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimilarObjectViewController.m; sourceTree = "<group>"; };
+		DC450FD41BA1B08A00B5B331 /* LargeDataImporter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LargeDataImporter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC450FD81BA1B08A00B5B331 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC450FD91BA1B08A00B5B331 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DC450FDB1BA1B08A00B5B331 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ../AppDelegate.h; sourceTree = "<group>"; };
+		DC450FDC1BA1B08A00B5B331 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = ../AppDelegate.m; sourceTree = "<group>"; };
+		DC450FDF1BA1B08A00B5B331 /* LargeDataImporter.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LargeDataImporter.xcdatamodel; sourceTree = "<group>"; };
+		DC450FE11BA1B08A00B5B331 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = ../../ViewController.h; sourceTree = "<group>"; };
+		DC450FE21BA1B08A00B5B331 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = ../../ViewController.m; sourceTree = "<group>"; };
+		DC450FE51BA1B08A00B5B331 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DC450FE71BA1B08A00B5B331 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DC450FEA1BA1B08A00B5B331 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		DC450FF01BA1B08A00B5B331 /* LargeDataImporterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LargeDataImporterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC450FF51BA1B08A00B5B331 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC450FF61BA1B08A00B5B331 /* LargeDataImporterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LargeDataImporterTests.m; sourceTree = "<group>"; };
+		DC4510031BA1B1A500B5B331 /* CustomPersistentStack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomPersistentStack.h; sourceTree = "<group>"; };
+		DC4510041BA1B1A500B5B331 /* CustomPersistentStack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomPersistentStack.m; sourceTree = "<group>"; };
+		DC4510061BA1B8DD00B5B331 /* LargeDataImporter-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LargeDataImporter-Prefix.pch"; sourceTree = "<group>"; };
+		DC4510081BA1C28A00B5B331 /* ImportOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImportOperation.h; sourceTree = "<group>"; };
+		DC4510091BA1C28A00B5B331 /* ImportOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImportOperation.m; sourceTree = "<group>"; };
+		DC45100D1BA1C6C700B5B331 /* UFOSighting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UFOSighting.h; sourceTree = "<group>"; };
+		DC45100E1BA1C6C700B5B331 /* UFOSighting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UFOSighting.m; sourceTree = "<group>"; };
+		DC4510161BA1C71500B5B331 /* UFOSighting+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UFOSighting+Additions.h"; sourceTree = "<group>"; };
+		DC4510171BA1C71500B5B331 /* UFOSighting+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UFOSighting+Additions.m"; sourceTree = "<group>"; };
+		DC4510191BA1C76300B5B331 /* NSString+Addition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Addition.h"; sourceTree = "<group>"; };
+		DC45101A1BA1C76300B5B331 /* NSString+Addition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Addition.m"; sourceTree = "<group>"; };
+		DCFD24A61BA6AF7900FE3DAC /* CustomCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomCell.h; sourceTree = "<group>"; };
+		DCFD24A71BA6AF7900FE3DAC /* CustomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomCell.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DC450FD11BA1B08A00B5B331 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC450FED1BA1B08A00B5B331 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DC09BD121BA315D100ECAAA7 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				DC450FE11BA1B08A00B5B331 /* ViewController.h */,
+				DC450FE21BA1B08A00B5B331 /* ViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		DC09BD131BA3160800ECAAA7 /* SimilarObjectViewController */ = {
+			isa = PBXGroup;
+			children = (
+				DCFD24A51BA6AF5C00FE3DAC /* TableCell */,
+				DC09BD141BA3162000ECAAA7 /* SimilarObjectViewController.h */,
+				DC09BD151BA3162000ECAAA7 /* SimilarObjectViewController.m */,
+			);
+			path = SimilarObjectViewController;
+			sourceTree = "<group>";
+		};
+		DC450FCB1BA1B08A00B5B331 = {
+			isa = PBXGroup;
+			children = (
+				DC450FD61BA1B08A00B5B331 /* LargeDataImporter */,
+				DC450FF31BA1B08A00B5B331 /* LargeDataImporterTests */,
+				DC450FD51BA1B08A00B5B331 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DC450FD51BA1B08A00B5B331 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DC450FD41BA1B08A00B5B331 /* LargeDataImporter.app */,
+				DC450FF01BA1B08A00B5B331 /* LargeDataImporterTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DC450FD61BA1B08A00B5B331 /* LargeDataImporter */ = {
+			isa = PBXGroup;
+			children = (
+				DC4510021BA1B0F000B5B331 /* View */,
+				DC4510011BA1B0E600B5B331 /* Model */,
+				DC4510001BA1B0D800B5B331 /* Controller */,
+				DC450FE71BA1B08A00B5B331 /* Images.xcassets */,
+				DC450FD71BA1B08A00B5B331 /* Supporting Files */,
+			);
+			path = LargeDataImporter;
+			sourceTree = "<group>";
+		};
+		DC450FD71BA1B08A00B5B331 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DC450FD81BA1B08A00B5B331 /* Info.plist */,
+				DC450FD91BA1B08A00B5B331 /* main.m */,
+				DC4510061BA1B8DD00B5B331 /* LargeDataImporter-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DC450FF31BA1B08A00B5B331 /* LargeDataImporterTests */ = {
+			isa = PBXGroup;
+			children = (
+				DC450FF61BA1B08A00B5B331 /* LargeDataImporterTests.m */,
+				DC450FF41BA1B08A00B5B331 /* Supporting Files */,
+			);
+			path = LargeDataImporterTests;
+			sourceTree = "<group>";
+		};
+		DC450FF41BA1B08A00B5B331 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DC450FF51BA1B08A00B5B331 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DC4510001BA1B0D800B5B331 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				DC09BD131BA3160800ECAAA7 /* SimilarObjectViewController */,
+				DC09BD121BA315D100ECAAA7 /* ViewController */,
+				DC450FDB1BA1B08A00B5B331 /* AppDelegate.h */,
+				DC450FDC1BA1B08A00B5B331 /* AppDelegate.m */,
+			);
+			name = Controller;
+			path = Comtroller;
+			sourceTree = "<group>";
+		};
+		DC4510011BA1B0E600B5B331 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DC4510191BA1C76300B5B331 /* NSString+Addition.h */,
+				DC45101A1BA1C76300B5B331 /* NSString+Addition.m */,
+				DC450FDE1BA1B08A00B5B331 /* LargeDataImporter.xcdatamodeld */,
+				DC4510031BA1B1A500B5B331 /* CustomPersistentStack.h */,
+				DC4510041BA1B1A500B5B331 /* CustomPersistentStack.m */,
+				DC4510081BA1C28A00B5B331 /* ImportOperation.h */,
+				DC4510091BA1C28A00B5B331 /* ImportOperation.m */,
+				DC45100D1BA1C6C700B5B331 /* UFOSighting.h */,
+				DC45100E1BA1C6C700B5B331 /* UFOSighting.m */,
+				DC4510161BA1C71500B5B331 /* UFOSighting+Additions.h */,
+				DC4510171BA1C71500B5B331 /* UFOSighting+Additions.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DC4510021BA1B0F000B5B331 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DC450FE41BA1B08A00B5B331 /* Main.storyboard */,
+				DC450FE91BA1B08A00B5B331 /* LaunchScreen.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DCFD24A51BA6AF5C00FE3DAC /* TableCell */ = {
+			isa = PBXGroup;
+			children = (
+				DCFD24A61BA6AF7900FE3DAC /* CustomCell.h */,
+				DCFD24A71BA6AF7900FE3DAC /* CustomCell.m */,
+			);
+			path = TableCell;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DC450FD31BA1B08A00B5B331 /* LargeDataImporter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC450FFA1BA1B08A00B5B331 /* Build configuration list for PBXNativeTarget "LargeDataImporter" */;
+			buildPhases = (
+				DC450FD01BA1B08A00B5B331 /* Sources */,
+				DC450FD11BA1B08A00B5B331 /* Frameworks */,
+				DC450FD21BA1B08A00B5B331 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LargeDataImporter;
+			productName = LargeDataImporter;
+			productReference = DC450FD41BA1B08A00B5B331 /* LargeDataImporter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DC450FEF1BA1B08A00B5B331 /* LargeDataImporterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC450FFD1BA1B08A00B5B331 /* Build configuration list for PBXNativeTarget "LargeDataImporterTests" */;
+			buildPhases = (
+				DC450FEC1BA1B08A00B5B331 /* Sources */,
+				DC450FED1BA1B08A00B5B331 /* Frameworks */,
+				DC450FEE1BA1B08A00B5B331 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DC450FF21BA1B08A00B5B331 /* PBXTargetDependency */,
+			);
+			name = LargeDataImporterTests;
+			productName = LargeDataImporterTests;
+			productReference = DC450FF01BA1B08A00B5B331 /* LargeDataImporterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DC450FCC1BA1B08A00B5B331 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Vishal Mishra, Gagan";
+				TargetAttributes = {
+					DC450FD31BA1B08A00B5B331 = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					DC450FEF1BA1B08A00B5B331 = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = DC450FD31BA1B08A00B5B331;
+					};
+				};
+			};
+			buildConfigurationList = DC450FCF1BA1B08A00B5B331 /* Build configuration list for PBXProject "LargeDataImporter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DC450FCB1BA1B08A00B5B331;
+			productRefGroup = DC450FD51BA1B08A00B5B331 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DC450FD31BA1B08A00B5B331 /* LargeDataImporter */,
+				DC450FEF1BA1B08A00B5B331 /* LargeDataImporterTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DC450FD21BA1B08A00B5B331 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC4510071BA1B91400B5B331 /* LargeDataImporter-Prefix.pch in Resources */,
+				DC450FE61BA1B08A00B5B331 /* Main.storyboard in Resources */,
+				DC450FEB1BA1B08A00B5B331 /* LaunchScreen.xib in Resources */,
+				DC450FE81BA1B08A00B5B331 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC450FEE1BA1B08A00B5B331 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DC450FD01BA1B08A00B5B331 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC450FE01BA1B08A00B5B331 /* LargeDataImporter.xcdatamodeld in Sources */,
+				DC09BD161BA3162000ECAAA7 /* SimilarObjectViewController.m in Sources */,
+				DCFD24A81BA6AF7900FE3DAC /* CustomCell.m in Sources */,
+				DC45101B1BA1C76300B5B331 /* NSString+Addition.m in Sources */,
+				DC4510051BA1B1A500B5B331 /* CustomPersistentStack.m in Sources */,
+				DC450FDD1BA1B08A00B5B331 /* AppDelegate.m in Sources */,
+				DC4510181BA1C71500B5B331 /* UFOSighting+Additions.m in Sources */,
+				DC450FE31BA1B08A00B5B331 /* ViewController.m in Sources */,
+				DC45100A1BA1C28A00B5B331 /* ImportOperation.m in Sources */,
+				DC450FDA1BA1B08A00B5B331 /* main.m in Sources */,
+				DC45100F1BA1C6C700B5B331 /* UFOSighting.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC450FEC1BA1B08A00B5B331 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC450FF71BA1B08A00B5B331 /* LargeDataImporterTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DC450FF21BA1B08A00B5B331 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DC450FD31BA1B08A00B5B331 /* LargeDataImporter */;
+			targetProxy = DC450FF11BA1B08A00B5B331 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DC450FE41BA1B08A00B5B331 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC450FE51BA1B08A00B5B331 /* Base */,
+			);
+			name = Main.storyboard;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		DC450FE91BA1B08A00B5B331 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC450FEA1BA1B08A00B5B331 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			path = ..;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DC450FF81BA1B08A00B5B331 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DC450FF91BA1B08A00B5B331 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DC450FFB1BA1B08A00B5B331 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LargeDataImporter/LargeDataImporter-Prefix.pch";
+				INFOPLIST_FILE = LargeDataImporter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DC450FFC1BA1B08A00B5B331 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LargeDataImporter/LargeDataImporter-Prefix.pch";
+				INFOPLIST_FILE = LargeDataImporter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DC450FFE1BA1B08A00B5B331 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = LargeDataImporterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LargeDataImporter.app/LargeDataImporter";
+			};
+			name = Debug;
+		};
+		DC450FFF1BA1B08A00B5B331 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = LargeDataImporterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LargeDataImporter.app/LargeDataImporter";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DC450FCF1BA1B08A00B5B331 /* Build configuration list for PBXProject "LargeDataImporter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC450FF81BA1B08A00B5B331 /* Debug */,
+				DC450FF91BA1B08A00B5B331 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC450FFA1BA1B08A00B5B331 /* Build configuration list for PBXNativeTarget "LargeDataImporter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC450FFB1BA1B08A00B5B331 /* Debug */,
+				DC450FFC1BA1B08A00B5B331 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC450FFD1BA1B08A00B5B331 /* Build configuration list for PBXNativeTarget "LargeDataImporterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC450FFE1BA1B08A00B5B331 /* Debug */,
+				DC450FFF1BA1B08A00B5B331 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		DC450FDE1BA1B08A00B5B331 /* LargeDataImporter.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				DC450FDF1BA1B08A00B5B331 /* LargeDataImporter.xcdatamodel */,
+			);
+			currentVersion = DC450FDF1BA1B08A00B5B331 /* LargeDataImporter.xcdatamodel */;
+			name = LargeDataImporter.xcdatamodeld;
+			path = ../LargeDataImporter.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = DC450FCC1BA1B08A00B5B331 /* Project object */;
+}

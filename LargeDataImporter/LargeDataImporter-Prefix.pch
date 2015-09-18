@@ -1,0 +1,47 @@
+//
+//  LargeDataImporter-Prefix.pch
+//  LargeDataImporter
+//
+//  Created by Vishal Mishra, Gagan on 10/09/15.
+//  Copyright (c) 2015 Vishal Mishra, Gagan. All rights reserved.
+//
+
+#ifndef LargeDataImporter_LargeDataImporter_Prefix_pch
+#define LargeDataImporter_LargeDataImporter_Prefix_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#import "AppDelegate.h"
+
+#define LDIInitializedStackNotification @"StackInitialization"
+
+#define UFO_KEY_COREDATA_GUID  @"guid"
+#define UFO_KEY_COREDATA_SIGHTED @"sighted"
+#define UFO_KEY_COREDATA_REPORTED @"reported"
+#define UFO_KEY_COREDATA_LOCATION @"location"
+#define UFO_KEY_COREDATA_SHAPE @"shape"
+#define UFO_KEY_COREDATA_DURATION "duration"
+#define UFO_KEY_COREDATA_DESC @"desc"
+#define UFO_KEY_JSON_GUID  @"guid"
+#define UFO_KEY_JSON_SIGHTED   @"sighted_at"
+#define UFO_KEY_JSON_REPORTED  @"reported_at"
+#define UFO_KEY_JSON_LOCATION  @"location"
+#define UFO_KEY_JSON_SHAPE  @"shape"
+#define UFO_KEY_JSON_DURATION  @"duration"
+#define UFO_KEY_JSON_DESC  @"description"
+
+//
+#define MDM_BATCH_SIZE_IMPORT 5000
+#define MDM_BATCH_SIZE_SAVE 5000
+
+
+
+//
+#define LDIMasterConextInitialized @"LoadtableOnFirstInitialized"
+
+//
+#define TICK NSDate *startTime = [NSDate date]
+#define TICK_RESET startTime = [NSDate date]
+#define TOCK NSLog(@"Elapsed Time: %f", -[startTime timeIntervalSinceNow])
+
+#endif
