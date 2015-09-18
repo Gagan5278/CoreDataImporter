@@ -1,0 +1,1 @@
+Used to import JSON data into CoreData. Application uses privateQueue with independent persistent stack for importing data. For using this demo you have to add JSON file & create your own momd. Replace all attributes with own attributes to run the demo
